@@ -1,0 +1,91 @@
+Accuracy test and train: SVC(C=50, gamma=0.005)
+Classification Report
+              precision    recall  f1-score   support
+
+          -1       0.68      0.70      0.69       240
+           0       0.39      0.11      0.17       160
+           1       0.66      0.87      0.75       347
+
+    accuracy                           0.65       747
+   macro avg       0.58      0.56      0.54       747
+weighted avg       0.61      0.65      0.61       747
+
+Confusion Matrix
+[[167  17  56]
+ [ 45  18  97]
+ [ 35  11 301]]
+Accuracy test and train: AdaBoostClassifier(base_estimator=LogisticRegression())
+Classification Report
+              precision    recall  f1-score   support
+
+          -1       0.67      0.67      0.67       240
+           0       0.39      0.23      0.29       160
+           1       0.68      0.81      0.74       347
+
+    accuracy                           0.64       747
+   macro avg       0.58      0.57      0.57       747
+weighted avg       0.62      0.64      0.62       747
+
+Confusion Matrix
+[[161  29  50]
+ [ 41  37  82]
+ [ 38  28 281]]
+Accuracy test and train: GradientBoostingClassifier(max_features='sqrt', min_samples_leaf=4,
+                           min_samples_split=6)
+Classification Report
+              precision    recall  f1-score   support
+
+          -1       0.65      0.68      0.67       240
+           0       0.39      0.23      0.29       160
+           1       0.69      0.80      0.74       347
+
+    accuracy                           0.64       747
+   macro avg       0.58      0.57      0.57       747
+weighted avg       0.61      0.64      0.62       747
+
+Confusion Matrix
+[[163  29  48]
+ [ 46  37  77]
+ [ 41  28 278]]
+
+
+
+Accuracy test and train: LogisticRegression()
+0.714859437751004
+Accuracy test and train: GaussianNB()
+0.6827309236947792
+Accuracy test and train: DecisionTreeClassifier(criterion='entropy', max_leaf_nodes=40,
+                       min_samples_leaf=2)
+0.6894243641231593
+Accuracy test and train: RandomForestClassifier(criterion='entropy', min_samples_leaf=2)
+0.7269076305220884
+Accuracy test and train: MLPClassifier(activation='logistic', alpha=0.04, hidden_layer_sizes=(256,),
+              learning_rate='adaptive', max_iter=1000, solver='sgd')
+0.7202141900937081
+Accuracy test and train: SVC(C=50, gamma=0.005)
+0.7416331994645248
+Accuracy test and train: AdaBoostClassifier(base_estimator=LogisticRegression())
+0.713520749665328
+Accuracy test and train: GradientBoostingClassifier(max_features='sqrt', min_samples_leaf=4,
+                           min_samples_split=6)
+0.7349397590361446
+
+Accuracy test and train: LogisticRegression()
+0.643908969210174
+Accuracy test and train: GaussianNB()
+0.5341365461847389
+Accuracy test and train: DecisionTreeClassifier(criterion='entropy', max_leaf_nodes=40,
+                       min_samples_leaf=2)
+0.607764390896921
+Accuracy test and train: RandomForestClassifier(criterion='entropy', min_samples_leaf=2)
+0.6291834002677377
+Accuracy test and train: MLPClassifier(activation='logistic', alpha=0.04, hidden_layer_sizes=(256,),
+              learning_rate='adaptive', max_iter=1000, solver='sgd')
+0.6559571619812584
+Accuracy test and train: SVC(C=50, gamma=0.005)
+0.6506024096385542
+Accuracy test and train: AdaBoostClassifier(base_estimator=LogisticRegression())
+0.6412315930388219
+Accuracy test and train: GradientBoostingClassifier(max_features='sqrt', min_samples_leaf=4,
+                           min_samples_split=6)
+0.643908969210174
